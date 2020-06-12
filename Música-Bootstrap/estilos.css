@@ -1,0 +1,113 @@
+body
+{
+  background-color: #eeeeee;
+  font-family: tahoma;
+}
+img
+{
+  max-width: 100%;
+  height: auto;
+}
+h1
+{
+  font-weight: bold;
+  color: #6d4c41;
+}
+div[class*="header"]
+{
+  height: 9.1rem;
+}
+.header2 img
+{
+  margin-left: 10px;
+}
+.logo
+{
+  width: 22rem;
+}
+.encabezado
+{
+  min-height: 10rem;
+}
+.social
+{
+  background-color: #6d4c41;
+}
+.navegacion
+{
+  background-color: #6d4c41;
+  border: none;
+}
+.btn-primary, .btn-primary:visited 
+{
+  margin-top: 3px; 
+  background-color: #6d4c41;
+  border: none;
+  color: white;
+}
+.btn-primary:hover, .btn-primary:active
+{
+  background-color: #4e342e; 
+  color: white;
+}
+.cuerpo
+{
+  background-color: #bdbdbd;
+  border-radius: 5px;
+}
+.titulo-cuerpo 
+{
+  font-weight: bolder;
+}
+.col-cuerpo-der
+{
+  border-right: 5px solid #eeeeee;
+}
+.col-cuerpo-izq
+{
+  margin-top: 8px;
+}
+.img-cuerpo1
+{
+  margin-top: 30%;
+  margin-bottom: 15px;
+}
+.img-textarea
+{
+  width: 5%;
+}
+.boton1
+{
+  margin-top: 1px;
+  margin-left: 2.5px;
+}
+.lista-busqueda
+{
+  margin-top: 50px;
+  color: black !important;
+  font-weight: bold !important;
+}
+@media(max-width: 992px)
+{
+  .columna-logo
+  {
+    display: none;
+  }
+  .col-cuerpo-izq
+  {
+    display: none;
+  }
+  .header2
+  {
+    align-content: center;
+  }
+  .img-cuerpo1
+  {
+    margin-top: 0;
+  }
+  h1
+  {
+    text-align: center;
+  }
+
+}

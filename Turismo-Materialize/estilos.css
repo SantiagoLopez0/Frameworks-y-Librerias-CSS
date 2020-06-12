@@ -1,0 +1,101 @@
+*
+{
+	font-family: tahoma;
+}
+body
+{
+	background: url(../img/fondo.jpg) no-repeat center center fixed;
+	background-size: cover;
+	
+}
+.encabezado
+{
+	height: 10rem;
+}
+.cuerpo
+{
+	margin-top: 2%;
+}
+.btn-menu
+{
+	margin-right: 10px;
+}
+.menu-navbar
+{
+	margin-top: 1%;
+}
+.logo
+{
+	width: 130px;
+	border: 5px solid white;
+	border-radius: 5px;
+}
+.img-slogan
+{
+	margin-top: 3%;
+}
+.titulo-slogan
+{
+	font-weight: bold;
+	font-size: 30px;
+}
+.icono-btn
+{
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+.social-menu a img
+{
+	width: 3rem;
+	margin-top: 10px;
+}
+.col-imagenes1
+{
+	width: 100%;
+}
+.col-imagenes2
+{
+	width: 100%
+}
+.user-imagen
+{
+	display: block;
+	margin: auto;
+	width: 50%;
+}
+.campo-comentarios
+{
+	height: 500px;
+}
+.area-comentarios
+{
+	border-radius: 5px 5px 5px 5px;
+  	resize: none;
+  	border: 1px solid #ffffff;
+  	height: 5rem;
+  	color: #fff;
+}
+.area-texto
+{
+	resize: none;
+	color: #fff;	
+}
+.formulario1
+{
+	height: 45px;
+}
+@media(max-width: 600px)
+{
+	.menu-navbar
+	{
+		text-align: center;
+	}
+	.titulo-slogan
+	{
+		font-size: 20px;
+	}
+	.cuerpo
+	{
+		margin-top: 50px;
+	}
+}
